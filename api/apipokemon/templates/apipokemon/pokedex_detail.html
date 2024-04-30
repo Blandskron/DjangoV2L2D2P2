@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ pokemon.name }}</title>
+</head>
+<body>
+    <div>
+        <p>ID: {{ pokemon.name }}</p>
+        <p>Nombre: {{ pokemon.type }}</p>
+        <p>Apellido: {{ pokemon.level }}</p>
+        <img src="{{ pokemon.image.url }}" alt="Imagen de perfil">
+    </div>
+</body>
+</html>
